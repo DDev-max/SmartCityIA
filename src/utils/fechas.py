@@ -26,7 +26,8 @@ def crear_variables_temporales(df_rellenado, shift = 9):
     cr_holidays = holidays.CountryHoliday('CR', years=lista_anios)
     df_rellenado['es_festivo'] = df_rellenado['Fecha'].apply(lambda x: x.date() in cr_holidays)
 
-    df_rellenado['lag_conteo'] = df_rellenado['Conteo'].shift(shift)
+    df_rellenado['lag_conteo1'] = df_rellenado['Conteo'].shift(1)
+    df_rellenado[f'lag_conteo{shift}'] = df_rellenado['Conteo'].shift(shift)
     df_rellenado = df_rellenado.dropna()
     
     return df_rellenado
