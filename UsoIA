@@ -1,0 +1,29 @@
+Uso de Herramientas de IA en el Proyecto
+Durante el desarrollo del proyecto Asistente Inteligente para Seguridad Urbana, utilizamos diferentes asistentes de inteligencia artificial para agilizar la codificación, resolver dudas técnicas y comprender mejor la documentación oficial.
+ A continuación, se detalla el uso por parte de cada integrante del equipo.
+
+Herramientas: DeepSeek, Chat gpt, Claude, Gemini
+¿Cómo puedo crear un diseño con pestañas (tabs) en Streamlit para separar las secciones de detección, predicción e información del proyecto?
+¿Cómo personalizo los colores y estilos en Streamlit para que se parezcan al sitio del OIJ?
+¿Cómo organizo la barra lateral (sidebar) con la información del equipo y enlaces importantes?
+Aporte: Con las respuestas obtenidas pude estructurar la interfaz de usuario de manera profesional, imitando la estética del sitio oficial del OIJ y logrando una navegación clara entre los módulos del sistema.
+¿Cómo puedo evitar que mi modelo de redes neuronales prediga valores negativos
+¿Cómo puedo leer un archivo .ods en Python?
+¿Cómo puedo agrupar las categorías infrecuentes de un DataFrame en Python?
+Aporte: Las sugerencias permitieron ajustar la función de activación de la última capa del modelo para garantizar predicciones no negativas, cargar correctamente los datos desde el portal de transparencia del OIJ y reducir el ruido en variables categóricas agrupando valores poco frecuentes.
+¿Cómo puedo subir mis documentos al repositorio a la rama del módulo 2?
+¿Cómo leo un documento .ods en Python?
+Explicación del manual del OIJ y el portal de transparencia.
+Aporte: Con la ayuda obtenida logró subir correctamente los archivos a GitHub en la rama correspondiente, cargar los datos estadísticos en formato ODS sin errores y comprender a fondo la estructura y el significado de los campos según la documentación oficial del OIJ, lo que fue esencial para el EDA.
+¿Cómo resolver problemas de compatibilidad de CUDA y cuDNN con Python 3.11?
+Crear un gráfico para visualizar mejor los resultados de F1, precisión y recall.
+¿Cómo puedo crear un resumen del dataset para visualizar el total de videos en train y test, cómo está distribuido en porcentajes y revisar el balance de los datos por clase?
+Ajustar todos los prints y títulos y valores de los gráficos para mejorar su visualización.
+Aporte: Las respuestas permitieron configurar correctamente el entorno de desarrollo para aprovechar la GPU, generar métricas de evaluación más claras y visualizar el balance de clases, lo que mejoró la interpretación del rendimiento del modelo CNN.
+¿Qué librería se podría usar para trabajar APIs a las que quiero enviarle imágenes?
+¿Qué colores puedo usar para los select en Streamlit?
+Aporte: Con la información obtenida pude seleccionar la librería adecuada para comunicar la aplicación con la API de detección de imágenes, y además personalizar los elementos de selección en Streamlit.
+Conclusión
+El uso de asistentes de IA resultó fundamental para resolver rápidamente dudas técnicas, interpretar documentación oficial y optimizar el código.
+Cada miembro del equipo pudo enfocarse en sus tareas específicas sin perder tiempo en problemas de sintaxis o implementación, lo que aceleró el desarrollo y mejoró la calidad del proyecto.
+
